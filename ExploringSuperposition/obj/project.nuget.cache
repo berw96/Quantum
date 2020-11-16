@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WHBpik+bDsdpCIw+xDIn6upr4UjwEFGb4ppKxJjhGeYAjgujzfHRaAnLQEXgPgst7oLB5uHkyZnXkq8ugguFBQ==",
+  "dgSpecHash": "JVsGXrFADimQQGv2eVYzDmD8lMEt2ApY9e8kfATQlHGCNMwSWXXEPUw8IruIxQoGFBBAqHxsCUKSnd/SN/Ag9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\QuantumHello.csproj",
+  "projectFilePath": "C:\\Users\\berw9\\Desktop\\git repos\\Quantum\\ExploringSuperposition\\ExploringSuperposition.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\berw9\\.nuget\\packages\\azure.core\\1.0.1\\azure.core.1.0.1.nupkg.sha512",
     "C:\\Users\\berw9\\.nuget\\packages\\azure.identity\\1.1.0\\azure.identity.1.1.0.nupkg.sha512",

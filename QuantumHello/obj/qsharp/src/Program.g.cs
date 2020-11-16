@@ -13,31 +13,245 @@ using Microsoft.Quantum.Core;
 using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumHello\",\"Name\":\"SayHello\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":5,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\Desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumHello\",\"Name\":\"SayHello\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\Desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":6,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"QGenerateRandomBit\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Result\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"QGenerateRandomBit\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":29}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"QSampleRandomNumberInRange\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":16,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"max\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":38},\"Item2\":{\"Line\":1,\"Column\":41}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"min\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":49},\"Item2\":{\"Line\":1,\"Column\":52}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"QSampleRandomNumberInRange\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":16,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"QGenerateRandomNumber\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":32,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":33,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"QGenerateRandomNumber\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":33,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"QTeleport\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":40,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumRNG\",\"Name\":\"QTeleport\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\berw9\\\\desktop\\\\git repos\\\\Quantum\\\\QuantumHello\\\\Program.qs\",\"Position\":{\"Item1\":40,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":20}},\"Documentation\":[]}")]
 #line hidden
-namespace QuantumHello
+namespace QuantumRNG
 {
-    [SourceLocation("C:\\Users\\berw9\\Desktop\\git repos\\Quantum\\QuantumHello\\Program.qs", OperationFunctor.Body, 7, -1)]
-    public partial class SayHello : Operation<QVoid, QVoid>, ICallable
+    [SourceLocation("C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs", OperationFunctor.Body, 9, 17)]
+    public partial class QGenerateRandomBit : Operation<QVoid, Result>, ICallable
     {
-        public SayHello(IOperationFactory m) : base(m)
+        public QGenerateRandomBit(IOperationFactory m) : base(m)
         {
         }
 
-        String ICallable.Name => "SayHello";
-        String ICallable.FullName => "QuantumHello.SayHello";
-        public static EntryPointInfo<QVoid, QVoid> Info => new EntryPointInfo<QVoid, QVoid>(typeof(SayHello));
+        String ICallable.Name => "QGenerateRandomBit";
+        String ICallable.FullName => "QuantumRNG.QGenerateRandomBit";
+        protected Allocate Allocate__
+        {
+            get;
+            set;
+        }
+
+        protected Release Release__
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Qubit, Result> Microsoft__Quantum__Measurement__MResetZ
+        {
+            get;
+            set;
+        }
+
+        public override Func<QVoid, Result> __Body__ => (__in__) =>
+        {
+#line hidden
+            {
+#line 10 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+                var q = Allocate__.Apply();
+#line hidden
+                bool __arg1__ = true;
+                try
+                {
+#line 11 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+                    Microsoft__Quantum__Intrinsic__H.Apply(q);
+#line 13 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+                    return Microsoft__Quantum__Measurement__MResetZ.Apply(q);
+                }
+#line hidden
+                catch
+                {
+                    __arg1__ = false;
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__)
+                    {
+#line hidden
+                        Release__.Apply(q);
+                    }
+                }
+            }
+        }
+
+        ;
+        public override void __Init__()
+        {
+            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
+            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
+            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
+            this.Microsoft__Quantum__Measurement__MResetZ = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Measurement.MResetZ));
+        }
+
+        public override IApplyData __DataIn__(QVoid data) => data;
+        public override IApplyData __DataOut__(Result data) => new QTuple<Result>(data);
+        public static System.Threading.Tasks.Task<Result> Run(IOperationFactory __m__)
+        {
+            return __m__.Run<QGenerateRandomBit, QVoid, Result>(QVoid.Instance);
+        }
+    }
+
+    [SourceLocation("C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs", OperationFunctor.Body, 17, 34)]
+    public partial class QSampleRandomNumberInRange : Operation<(Int64,Int64), Int64>, ICallable
+    {
+        public QSampleRandomNumberInRange(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class In : QTuple<(Int64,Int64)>, IApplyData
+        {
+            public In((Int64,Int64) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits => null;
+        }
+
+        String ICallable.Name => "QSampleRandomNumberInRange";
+        String ICallable.FullName => "QuantumRNG.QSampleRandomNumberInRange";
+        protected ICallable<Int64, Int64> Microsoft__Quantum__Math__BitSizeI
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<QVoid, Result> QGenerateRandomBit__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<IQArray<Result>, Int64> Microsoft__Quantum__Convert__ResultArrayAsInt
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Int64,Int64), Int64> __Body__ => (__in__) =>
+        {
+            var (max,min) = __in__;
+#line 18 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+            var output = 0L;
+#line 19 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+            while (true)
+            {
+#line 20 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+                var bits = QArray<Result>.Create(0L);
+#line 22 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+                foreach (var idxBit in new QRange(1L, Microsoft__Quantum__Math__BitSizeI.Apply(max)))
+#line hidden
+                {
+#line 24 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+                    bits = QArray<Result>.Add(bits, new QArray<Result>(QGenerateRandomBit__.Apply(QVoid.Instance)));
+                }
+
+#line 27 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+                output = Microsoft__Quantum__Convert__ResultArrayAsInt.Apply(bits?.Copy());
+                if (((output <= max) && (output >= min)))
+                {
+                    break;
+                }
+                else
+                {
+                }
+            }
+
+#line 30 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+            return output;
+        }
+
+        ;
+        public override void __Init__()
+        {
+            this.Microsoft__Quantum__Math__BitSizeI = this.__Factory__.Get<ICallable<Int64, Int64>>(typeof(global::Microsoft.Quantum.Math.BitSizeI));
+            this.QGenerateRandomBit__ = this.__Factory__.Get<ICallable<QVoid, Result>>(typeof(QGenerateRandomBit));
+            this.Microsoft__Quantum__Convert__ResultArrayAsInt = this.__Factory__.Get<ICallable<IQArray<Result>, Int64>>(typeof(global::Microsoft.Quantum.Convert.ResultArrayAsInt));
+        }
+
+        public override IApplyData __DataIn__((Int64,Int64) data) => new In(data);
+        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
+        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__, Int64 max, Int64 min)
+        {
+            return __m__.Run<QSampleRandomNumberInRange, (Int64,Int64), Int64>((max, min));
+        }
+    }
+
+    [SourceLocation("C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs", OperationFunctor.Body, 34, 41)]
+    public partial class QGenerateRandomNumber : Operation<QVoid, Int64>, ICallable
+    {
+        public QGenerateRandomNumber(IOperationFactory m) : base(m)
+        {
+        }
+
+        String ICallable.Name => "QGenerateRandomNumber";
+        String ICallable.FullName => "QuantumRNG.QGenerateRandomNumber";
+        public static EntryPointInfo<QVoid, Int64> Info => new EntryPointInfo<QVoid, Int64>(typeof(QGenerateRandomNumber));
         protected ICallable<String, QVoid> Message__
         {
             get;
             set;
         }
 
+        protected ICallable<(Int64,Int64), Int64> QSampleRandomNumberInRange__
+        {
+            get;
+            set;
+        }
+
+        public override Func<QVoid, Int64> __Body__ => (__in__) =>
+        {
+#line 35 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+            var max = 100L;
+#line 36 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+            var min = 50L;
+#line 37 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+            Message__.Apply(String.Format("Sampling a random number between {0} and {1}: ", min, max));
+#line 38 "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
+            return QSampleRandomNumberInRange__.Apply((max, min));
+        }
+
+        ;
+        public override void __Init__()
+        {
+            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
+            this.QSampleRandomNumberInRange__ = this.__Factory__.Get<ICallable<(Int64,Int64), Int64>>(typeof(QSampleRandomNumberInRange));
+        }
+
+        public override IApplyData __DataIn__(QVoid data) => data;
+        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
+        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__)
+        {
+            return __m__.Run<QGenerateRandomNumber, QVoid, Int64>(QVoid.Instance);
+        }
+    }
+
+    [SourceLocation("C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\Program.qs", OperationFunctor.Body, 41, -1)]
+    public partial class QTeleport : Operation<QVoid, QVoid>, ICallable
+    {
+        public QTeleport(IOperationFactory m) : base(m)
+        {
+        }
+
+        String ICallable.Name => "QTeleport";
+        String ICallable.FullName => "QuantumRNG.QTeleport";
         public override Func<QVoid, QVoid> __Body__ => (__in__) =>
         {
-#line 8 "C:\\Users\\berw9\\Desktop\\git repos\\Quantum\\QuantumHello\\Program.qs"
-            Message__.Apply("Hello quantum world!");
 #line hidden
             return QVoid.Instance;
         }
@@ -45,14 +259,13 @@ namespace QuantumHello
         ;
         public override void __Init__()
         {
-            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
         }
 
         public override IApplyData __DataIn__(QVoid data) => data;
         public override IApplyData __DataOut__(QVoid data) => data;
         public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
         {
-            return __m__.Run<SayHello, QVoid, QVoid>(QVoid.Instance);
+            return __m__.Run<QTeleport, QVoid, QVoid>(QVoid.Instance);
         }
     }
 }

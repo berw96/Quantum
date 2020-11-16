@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\QuantumHello.csproj": {}
+    "C:\\Users\\berw9\\Desktop\\git repos\\Quantum\\ExploringSuperposition\\ExploringSuperposition.csproj": {}
   },
   "projects": {
-    "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\QuantumHello.csproj": {
+    "C:\\Users\\berw9\\Desktop\\git repos\\Quantum\\ExploringSuperposition\\ExploringSuperposition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\QuantumHello.csproj",
-        "projectName": "QuantumHello",
-        "projectPath": "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\QuantumHello.csproj",
+        "projectUniqueName": "C:\\Users\\berw9\\Desktop\\git repos\\Quantum\\ExploringSuperposition\\ExploringSuperposition.csproj",
+        "projectName": "ExploringSuperposition",
+        "projectPath": "C:\\Users\\berw9\\Desktop\\git repos\\Quantum\\ExploringSuperposition\\ExploringSuperposition.csproj",
         "packagesPath": "C:\\Users\\berw9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\berw9\\desktop\\git repos\\Quantum\\QuantumHello\\obj\\",
+        "outputPath": "C:\\Users\\berw9\\Desktop\\git repos\\Quantum\\ExploringSuperposition\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\berw9\\AppData\\Roaming\\NuGet\\NuGet.Config",
