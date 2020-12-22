@@ -37,6 +37,4 @@ namespace QuantumRNG {
         Message($"Sampling a random number between {min} and {max}: ");
         return QSampleRandomNumberInRange(max, min);
     }
-
-    
 }
